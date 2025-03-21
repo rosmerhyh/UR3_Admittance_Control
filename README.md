@@ -18,7 +18,7 @@ This project supports a study on **minimizing human physical effort** in program
 - ✅ Demonstrated the effectiveness of a **mass-based admittance control model** in reducing operator-applied force, particularly at **1 kg** and **5 kg** virtual mass settings.
 - ✅ Validated the **feasibility of admittance control** in robots like the UR3, which do not support torque-level control required for classical impedance control.
 - ✅ Compared the proposed method against adaptive and reinforcement-learning-based approaches, showing that a **fixed admittance model** can still achieve significant ergonomic improvements without added complexity.
-- ✅ Replicated the concept of **constrained task spaces** (as in He et al.) by enforcing motion only along the X-axis, allowing for isolated and measurable force interaction.
-- ✅ Provided a simpler, more accessible alternative to advanced adaptive methods (e.g., Reyes-Uquillas et al.), showing that **low-complexity controllers** can yield practical benefits in **stable, repetitive industrial tasks**.
+- ✅ Replicated the concept of **constrained task spaces** by enforcing motion only along the X-axis, allowing for isolated and measurable force interaction.
+- ✅ Provided a simpler, more accessible alternative to advanced adaptive methods, showing that **low-complexity controllers** can yield practical benefits in **stable, repetitive industrial tasks**.
 
 This codebase has been used in a peer-reviewed research article focused on enhancing **human-robot interaction through force-guided motion**, contributing to the development of safer, more ergonomic collaborative robotics solutions.
