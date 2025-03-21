@@ -78,3 +78,17 @@ This project provides a complete experimental framework for evaluating admittanc
 
 - **Dashboard Connection Testing**  
   Verifies connection with the robot’s dashboard server for status and readiness checks.
+
+---
+
+## ⚙️ Installation
+
+This project was developed and tested on **Ubuntu Linux 22.04 LTS**, where all dependencies were successfully installed and executed using Python 3.
+
+Follow these steps to set up the environment and run the scripts on a machine connected to the UR3 robot.
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
