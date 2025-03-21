@@ -92,3 +92,9 @@ Follow these steps to set up the environment and run the scripts on a machine co
 ```bash
 git clone https://github.com/rosmerhyh/UR3_Admittance_Control.git
 cd UR3_Admittance_Control
+```
+
+### 2. (Optional) Create a Virtual Environment
+```bash
+python3 -m venv ur3_env
+source ur3_env/bin/activate
