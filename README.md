@@ -1,4 +1,4 @@
-# 🤖 Admittance-Based Control and Disturbance Robot (UR3)
+# 🤖 Admittance Control for Reducing Human Physical Effort in Robot Programming through Motion Guidance
 
 This project contains Python scripts developed for experimental validation of admittance-based control strategies using a Universal Robots UR3 collaborative robotic arm. The main objective is to reduce the physical effort required by a human operator during the programming of linear robot trajectories through physical guidance.
 
