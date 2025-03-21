@@ -22,3 +22,56 @@ This project supports a study on **minimizing human physical effort** in program
 - ✅ Provided a simpler, more accessible alternative to advanced adaptive methods, showing that **low-complexity controllers** can yield practical benefits in **stable, repetitive industrial tasks**.
 
 This codebase has been used in a peer-reviewed research article focused on enhancing **human-robot interaction through force-guided motion**, contributing to the development of safer, more ergonomic collaborative robotics solutions.
+
+---
+
+## ✨ Features
+
+This project provides a complete experimental framework for evaluating admittance control and external disturbance response in collaborative robots. The key features include:
+
+### 🔧 Control Robot (Main UR3)
+- **Admittance-Based Velocity Control**  
+  Implements a velocity controller simulating a mass-spring-damper system to move the robot along the X-axis in response to user-applied force.
+
+- **Linear Trajectory Execution**  
+  Restricts movement to a single Cartesian axis to isolate interaction forces and facilitate analysis.
+
+- **Predefined Pose Commands**  
+  Includes options to move the robot to home or experimental starting positions for repeatable trials.
+
+- **Freedrive Mode Toggle**  
+  Allows switching between UR's built-in freedrive mode and the custom admittance control for comparison.
+
+- **Force Sensor Integration**  
+  Acquires external force data using a serial-connected piezoresistive sensor (e.g., FSR) to estimate interaction forces during motion.
+
+- **Real-Time Data Logging**  
+  Records time series data including target and actual velocity, applied force, estimated acceleration, and sensor voltage.
+
+- **CSV Export for Analysis**  
+  Automatically stores experimental data in CSV format for post-processing or visualization.
+
+- **Visualization of Results**  
+  Generates plots for:
+  - TCP force over time
+  - Desired vs. actual velocity
+  - Desired vs. measured acceleration
+  - Sensor voltages and estimated forces
+
+---
+
+### 🧪 Disturbance Robot (Secondary UR3)
+- **Sinusoidal Force Injection**  
+  Uses RTDE force mode to apply a sinusoidal disturbance force along the X-axis, simulating real-world interaction or interference.
+
+- **Reactive Pose Control Based on Sensor Input**  
+  Reads voltage values from a force sensor and adjusts the robot’s pose depending on detected pressure level (low, medium, high).
+
+- **Real-Time Control via RTDE**  
+  Executes force control in real time with synchronized sampling, allowing precise modulation of applied external forces.
+
+- **Pose Initialization and State Monitoring**  
+  Includes diagnostic options to print robot pose, joint angles, and robot model information from the UR dashboard.
+
+- **Dashboard Connection Testing**  
+  Verifies connection with the robot’s dashboard server for status and readiness checks.
