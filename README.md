@@ -60,7 +60,7 @@ This project provides a complete experimental framework for evaluating admittanc
 
 ---
 
-### 🧪 Disturbance Robot (Secondary UR3)
+### 🔎 Disturbance Robot (Secondary UR3)
 - **Sinusoidal Force Injection**  
   Uses RTDE force mode to apply a sinusoidal disturbance force along the X-axis, simulating real-world interaction or interference.
 
