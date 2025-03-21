@@ -113,6 +113,24 @@ The dependencies include:
 - [`matplotlib`](https://matplotlib.org/stable/contents.html): Visualization of time-series data (force, velocity, acceleration)
 - [`numpy`](https://numpy.org/doc/): Numerical computations
 
-## 🧪 Experimental Setup
+## 🔨 Experimental Setup
 
-The experimental setup consists of two **UR3 collaborative robots** arranged to perform coordinated interaction tasks. The objective is to evaluate the performance of different admittance control configurations in reducing the physical effort required by a human operator during programming-by-demonstration.
+This project evaluates admittance control for collaborative programming tasks using a UR3 robot, focusing on reducing the operator’s physical effort. Two types of experiments were conducted to assess the controller’s effectiveness and robustness:
+
+### 🔹 Experiment 1: Admittance Control Without Disturbance
+
+- A single UR3 robot was used.
+- The operator physically guided the robot along a **linear trajectory** (X-axis only).
+- Four motion control modes were tested:
+  - **Freedrive** (UR’s built-in mode)
+  - **Admittance control** with virtual mass values of `1 kg`, `5 kg`, and `10 kg`
+- The objective was to evaluate whether lower-mass admittance settings reduced the force needed to move the robot compared to freedrive.
+
+---
+
+### 🔹 Experiment 2: Admittance Control Without Disturbance (Sinusoidal Load)
+
+- Two UR3 robots were used and **mechanically connected**.
+- The **Control Robot** was operated by the human using the same linear path and the same four control modes (freedrive, 1 kg, 5 kg, 10 kg).
+- Simultaneously, the **Disturbance Robot** applied a **sinusoidal force** along the X-axis using UR’s force mode, simulating interference from a tool.
+- The goal was to evaluate how well the admittance control absorbed disturbances and maintained smooth, compliant motion under load.
