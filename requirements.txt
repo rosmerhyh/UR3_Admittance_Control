@@ -1,0 +1,6 @@
+urx==0.11.0
+ur-rtde==1.5.7
+pyserial==3.5
+openpyxl==3.1.2
+matplotlib==3.5.1
+numpy==1.21.5
