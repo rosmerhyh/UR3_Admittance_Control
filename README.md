@@ -98,3 +98,19 @@ cd UR3_Admittance_Control
 ```bash
 python3 -m venv ur3_env
 source ur3_env/bin/activate
+```
+
+### 3. Install Dependencies
+```bash
+pip install -r requirements.txt
+```
+The dependencies include:
+
+The dependencies include:
+
+- [`urx`](https://pypi.org/project/urx/): High-level UR robot control via socket interface
+- [`ur-rtde`](https://pypi.org/project/ur-rtde/): Real-time control, data streaming, and force mode for UR robots
+- [`pyserial`](https://pypi.org/project/pyserial/): Serial communication (used to read external sensor data)
+- [`openpyxl`](https://pypi.org/project/openpyxl/): Export data to Excel format (optional)
+- [`matplotlib`](https://matplotlib.org/stable/contents.html): Visualization of time-series data (force, velocity, acceleration)
+- [`numpy`](https://numpy.org/doc/): Numerical computations
