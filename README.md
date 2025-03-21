@@ -108,7 +108,7 @@ The dependencies include:
 
 The dependencies include:
 
-- [`urx`](https://pypi.org/project/urx/): High-level UR robot control via socket interface
+- [`urx`](https://github.com/SintefManufacturing/python-urx): High-level UR robot control via socket interface
 - [`ur-rtde`](https://pypi.org/project/ur-rtde/): Real-time control, data streaming, and force mode for UR robots
 - [`pyserial`](https://pypi.org/project/pyserial/): Serial communication (used to read external sensor data)
 - [`openpyxl`](https://pypi.org/project/openpyxl/): Export data to Excel format (optional)
