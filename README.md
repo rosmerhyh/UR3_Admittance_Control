@@ -1,13 +1,24 @@
 # 🤖 Admittance Control for Reducing Human Physical Effort in Robot Programming through Motion Guidance
 
-This project contains Python scripts developed for experimental validation of admittance-based control strategies using a Universal Robots UR3 collaborative robotic arm. The main objective is to reduce the physical effort required by a human operator during the programming of linear robot trajectories through physical guidance.
+This repository contains Python scripts developed for experimental validation of **admittance control strategies** using a **UR3 collaborative robot**. The main goal is to reduce the **physical effort** required by human operators during the programming of linear trajectories, by simulating dynamic behaviors that guide robot motion through force interaction.
 
-It includes two main components:
+The system includes two main components:
 
-- **Control Robot**: Implements an **admittance control strategy** to guide the UR3 robot along a linear trajectory in the X-axis. The controller simulates a virtual **mass-spring-damper system** that governs the robot’s velocity in response to external forces applied by the user. This approach allows the robot to move compliantly and naturally, reducing the physical effort required for demonstration-based programming. The admittance control replaces the conventional freedrive mode with a dynamic behavior that can be tuned by adjusting the virtual inertia parameters. The user pushes the robot to teach a motion path, and the controller ensures that the resulting motion is smooth, responsive, and physically efficient.
+- **Control Robot**: Implements an **admittance-based velocity controller** that simulates a **virtual mass-spring-damper system**. The controller restricts motion to a **single axis (X-axis)** and enables compliant, force-responsive movement during human-guided programming. This approach aims to replace the standard freedrive mode with a more controllable and ergonomic alternative, improving interaction quality and reducing user fatigue.
 
-- **Disturbance Robot**: Simulates dynamic external disturbances that interact with the control robot’s motion. It applies controlled sinusoidal forces along the same axis to evaluate how different admittance configurations respond to unexpected or interfering forces during programming tasks.
+- **Disturbance Robot**: Applies controlled **sinusoidal forces** using the UR3's **force mode**, allowing the evaluation of the control robot’s responsiveness and robustness under external disturbances. It also includes functionality to react to sensor input (e.g., from an FSR) to simulate physical interaction or intentional interference.
 
-The entire interaction takes place along a **linear trajectory**, which allows for precise analysis of velocity and force responses under different virtual mass values. The system integrates force sensors (e.g., FSR) and provides real-time data logging and plotting of key metrics such as applied force, measured velocity, and acceleration.
 
-This setup supports direct comparison between admittance control and the standard freedrive mode in collaborative robotics. The scripts were used as part of a research study focused on improving human-robot interaction in industrial settings through intuitive and low-effort programming techniques.
+---
+
+## 🧪 Research Context & Contributions
+
+This project supports a study on **minimizing human physical effort** in programming-by-demonstration for collaborative robots in industrial environments. The key contributions of this work include:
+
+- ✅ Demonstrated the effectiveness of a **mass-based admittance control model** in reducing operator-applied force, particularly at **1 kg** and **5 kg** virtual mass settings.
+- ✅ Validated the **feasibility of admittance control** in robots like the UR3, which do not support torque-level control required for classical impedance control.
+- ✅ Compared the proposed method against adaptive and reinforcement-learning-based approaches, showing that a **fixed admittance model** can still achieve significant ergonomic improvements without added complexity.
+- ✅ Replicated the concept of **constrained task spaces** (as in He et al.) by enforcing motion only along the X-axis, allowing for isolated and measurable force interaction.
+- ✅ Provided a simpler, more accessible alternative to advanced adaptive methods (e.g., Reyes-Uquillas et al.), showing that **low-complexity controllers** can yield practical benefits in **stable, repetitive industrial tasks**.
+
+This codebase has been used in a peer-reviewed research article focused on enhancing **human-robot interaction through force-guided motion**, contributing to the development of safer, more ergonomic collaborative robotics solutions.
