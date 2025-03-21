@@ -90,5 +90,5 @@ Follow these steps to set up the environment and run the scripts on a machine co
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/rosmerhyh/UR3_Admittance_Control.git
+cd UR3_Admittance_Control
