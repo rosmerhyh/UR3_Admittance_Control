@@ -112,3 +112,7 @@ The dependencies include:
 - [`openpyxl`](https://pypi.org/project/openpyxl/): Export data to Excel format (optional)
 - [`matplotlib`](https://matplotlib.org/stable/contents.html): Visualization of time-series data (force, velocity, acceleration)
 - [`numpy`](https://numpy.org/doc/): Numerical computations
+
+## 🧪 Experimental Setup
+
+The experimental setup consists of two **UR3 collaborative robots** arranged to perform coordinated interaction tasks. The objective is to evaluate the performance of different admittance control configurations in reducing the physical effort required by a human operator during programming-by-demonstration.
