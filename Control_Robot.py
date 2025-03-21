@@ -618,7 +618,7 @@ def options(opt):
         print(dat)
 
     elif opt == '25':
-        #Moves the robot to a predefined initial pose and retrieves various robot data
+        #Moves the robot to a predefined initial pose for the experiments and retrieves various robot data
 
         # Define the initial joint position
         pose_ini = [-1.1733711401568812, -1.4588204112700005, -1.7440412044525146, -1.5385695782354851, 1.5759679079055786, 12.510759655629293]
