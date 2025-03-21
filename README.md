@@ -1,3 +1,6 @@
+# WORK IN PROGRESS
+----
+
 # 🤖 Admittance Control for Reducing Human Physical Effort in Robot Programming through Motion Guidance
 
 This repository contains Python scripts developed for experimental validation of **admittance control strategies** using a **UR3 collaborative robot**. The main goal is to reduce the **physical effort** required by human operators during the programming of linear trajectories, by simulating dynamic behaviors that guide robot motion through force interaction.
