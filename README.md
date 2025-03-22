@@ -149,4 +149,4 @@ The following image shows the schematic for the circuit:
 
 ---
 
-[![Watch the experiment 1](https://img.youtube.com/vi/your_video_id/hqdefault.jpg)](https://www.youtube.com/watch?v=90aXgfmtC50)
+[![Watch the experiment 1](https://img.youtube.com/vi/90aXgfmtC50/hqdefault.jpg)](https://youtu.be/90aXgfmtC50)
