@@ -119,10 +119,11 @@ This project evaluates admittance control for collaborative programming tasks us
 
 ### 🔹 Circuit To Read Force Applied To The Sensor
 
-- Voltage divider circuit in connection with an arduino, the connections are shown in the image, the connection is made directly to the computer connected to the control robot.
+- A voltage divider circuit was implemented using an Arduino to measure the force applied to an **FSR (Force Sensitive Resistor)**. The sensor is connected directly to the computer running the control robot script, and data is transmitted via serial communication.
 
+The following image shows the schematic for the circuit:
 <img src="graphic_resources/Circuit_Sensor.png" alt="Circuit sensor" width="100%"/>
-*Figure 1: Circuit to read force applied to the sensor FSR.*
+*Figure 1: Circuit to read the force applied to the FSR sensor using a voltage divider connected to Arduino.*
 
 ### 🔹 Experiment 1: Admittance Control Without Disturbance
 
@@ -145,3 +146,7 @@ This project evaluates admittance control for collaborative programming tasks us
 
 <img src="graphic_resources/Experiment_Setup_2.png" alt="Experiment 2 setup" width="100%"/>
 *Figure 3: Experimental setup for admittance control with disturbance.*
+
+---
+
+[![Watch the experiment 1](https://img.youtube.com/vi/your_video_id/hqdefault.jpg)](https://www.youtube.com/watch?v=90aXgfmtC50)
