@@ -117,6 +117,13 @@ The dependencies include:
 
 This project evaluates admittance control for collaborative programming tasks using a UR3 robot, focusing on reducing the operator’s physical effort. Two types of experiments were conducted to assess the controller’s effectiveness and robustness:
 
+### 🔹 Circuit To Read Force Applied To The Sensor
+
+- Voltage divider circuit in connection with an arduino, the connections are shown in the image, the connection is made directly to the computer connected to the control robot.
+
+<img src="graphic_resources/Circuit_Sensor.png" alt="Circuit sensor" width="100%"/>
+*Figure 1: Circuit to read force applied to the sensor FSR.*
+
 ### 🔹 Experiment 1: Admittance Control Without Disturbance
 
 - A single UR3 robot was used.
@@ -127,7 +134,7 @@ This project evaluates admittance control for collaborative programming tasks us
 - The objective was to evaluate whether lower-mass admittance settings reduced the force needed to move the robot compared to freedrive.
 
 <img src="graphic_resources/Experiment_Setup_1.png" alt="Experiment 1 setup" width="100%"/>
-*Figure 1: Experimental setup for admittance control without disturbance.*
+*Figure 2: Experimental setup for admittance control without disturbance.*
 
 ### 🔹 Experiment 2: Admittance Control With Disturbance (Sinusoidal Load)
 
@@ -136,5 +143,5 @@ This project evaluates admittance control for collaborative programming tasks us
 - Simultaneously, the **Disturbance Robot** applied a **sinusoidal force** along the X-axis using UR’s force mode, simulating interference from a tool.
 - The goal was to evaluate how well the admittance control absorbed disturbances and maintained smooth, compliant motion under load.
 
-<img src="graphic_resources/Experiment_Setup_2.png" alt="Experiment 1 setup" width="100%"/>
-*Figure 2: Experimental setup for admittance control with disturbance.*
+<img src="graphic_resources/Experiment_Setup_2.png" alt="Experiment 2 setup" width="100%"/>
+*Figure 3: Experimental setup for admittance control with disturbance.*
