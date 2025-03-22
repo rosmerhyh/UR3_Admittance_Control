@@ -126,8 +126,8 @@ This project evaluates admittance control for collaborative programming tasks us
   - **Admittance control** with virtual mass values of `1 kg`, `5 kg`, and `10 kg`
 - The objective was to evaluate whether lower-mass admittance settings reduced the force needed to move the robot compared to freedrive.
 
-<img src="graphic_resources/Experiment_Setup_1.png" alt="Experiment 1 setup" width="600"/>
-> 🖼️ *Figure: Physical layout showing UR3 robot, FSR sensor placement with circuit, and human-robot interaction zone.*
+<img src="graphic_resources/Experiment_Setup_1.png" alt="Experiment 1 setup" width="100%"/>
+*Figure 1: Experimental setup for admittance control without disturbance.*
 
 ### 🔹 Experiment 2: Admittance Control Without Disturbance (Sinusoidal Load)
 
