@@ -171,11 +171,11 @@ In this video you can see the admittance control test in the experiment configur
   <tr>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment2_3.jpeg" alt="Pic3" width="300"/><br>
-      <sub><b>FSR Circuit:</b>Volunteer performing experiment 2</sub>
+      <sub><b>Experiment 2:</b>Volunteer performing experiment 2</sub>
     </td>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment2_4.jpg" alt="Pic4" width="300"/><br>
-      <sub><b>Force Data:</b>Volunteer performing experiment 2</sub>
+      <sub><b>Experiment 2:</b>Volunteer performing experiment 2</sub>
     </td>
   </tr>
 </table>
