@@ -54,13 +54,6 @@ This project provides a complete experimental framework for evaluating admittanc
 - **CSV Export for Analysis**  
   Automatically stores experimental data in CSV format for post-processing or visualization.
 
-- **Visualization of Results**  
-  Generates plots for:
-  - TCP force over time
-  - Desired vs. actual velocity
-  - Desired vs. measured acceleration
-  - Sensor voltages and estimated forces
-
 ---
 
 ### 🔎 Disturbance Robot (Secondary UR3)
@@ -161,21 +154,21 @@ In this video you can see the admittance control test in the experiment configur
   <tr>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment1_1.jpg" alt="Pic1" width="300"/><br>
-      <sub><b>Experiment 1:</b>Volunteer performing experiment 1</sub>
+      <sub><b>Experiment 1:</b> Volunteer performing experiment 1</sub>
     </td>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment2_2.jpg" alt="Pic2" width="300"/><br>
-      <sub><b>Experiment 2:</b>Volunteer performing experiment 2</sub>
+      <sub><b>Experiment 2:</b> Volunteer performing experiment 2</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment2_3.jpeg" alt="Pic3" width="300"/><br>
-      <sub><b>Experiment 2:</b>Volunteer performing experiment 2</sub>
+      <sub><b>Experiment 2:</b> Volunteer performing experiment 2</sub>
     </td>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment2_4.jpg" alt="Pic4" width="300"/><br>
-      <sub><b>Experiment 2:</b>Volunteer performing experiment 2</sub>
+      <sub><b>Experiment 2:</b> Volunteer performing experiment 2</sub>
     </td>
   </tr>
 </table>
