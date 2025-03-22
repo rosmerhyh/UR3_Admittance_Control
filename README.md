@@ -155,7 +155,7 @@ In this video you can see the admittance control test in the experiment configur
 
 [![Watch the experiment 1](https://img.youtube.com/vi/90aXgfmtC50/hqdefault.jpg)](https://youtu.be/90aXgfmtC50)
 
-## 🖼️ Experiment Photos
+### 🔹 Experiment Photos
 
 <table>
   <tr>
