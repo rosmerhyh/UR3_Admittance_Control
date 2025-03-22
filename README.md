@@ -129,9 +129,12 @@ This project evaluates admittance control for collaborative programming tasks us
 <img src="graphic_resources/Experiment_Setup_1.png" alt="Experiment 1 setup" width="100%"/>
 *Figure 1: Experimental setup for admittance control without disturbance.*
 
-### 🔹 Experiment 2: Admittance Control Without Disturbance (Sinusoidal Load)
+### 🔹 Experiment 2: Admittance Control With Disturbance (Sinusoidal Load)
 
 - Two UR3 robots were used and **mechanically connected**.
 - The **Control Robot** was operated by the human using the same linear path and the same four control modes (freedrive, 1 kg, 5 kg, 10 kg).
 - Simultaneously, the **Disturbance Robot** applied a **sinusoidal force** along the X-axis using UR’s force mode, simulating interference from a tool.
 - The goal was to evaluate how well the admittance control absorbed disturbances and maintained smooth, compliant motion under load.
+
+<img src="graphic_resources/Experiment_Setup_2.png" alt="Experiment 1 setup" width="100%"/>
+*Figure 2: Experimental setup for admittance control with disturbance.*
