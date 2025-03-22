@@ -149,4 +149,8 @@ The following image shows the schematic for the circuit:
 
 ---
 
+### 🔹 Experiment 1 Video Test
+
+In this video you can see the admittance control test in the experiment configuration without a second robot acting as a disturbance, press option 6 of the script and proceed to apply a force on the FSR sensor.
+
 [![Watch the experiment 1](https://img.youtube.com/vi/90aXgfmtC50/hqdefault.jpg)](https://youtu.be/90aXgfmtC50)
