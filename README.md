@@ -142,37 +142,15 @@ A voltage divider with an Arduino measures force from an FSR sensor, sending val
 
 ### 🧪 Step-by-Step
 
-1. **Prepare the Force Sensor**
-   - Upload the force_sensor_FSR.ino sketch to the Arduino.
-   - Ensure the Arduino is properly connected to the FSR sensor.
-   - Connect the Arduino via USB to **Computer 1** (which will control the main robot).
-
-2. **Configure the Main Robot (Control Robot)**
-   - Connect **Computer 1** to the **Control UR3**.
-   - Set a static IP (e.g., 192.168.1.29) and update the Control_Robot.py script accordingly.
-   - Run the script and select **option 25** to move the robot to its initial pose.
-
-3. **Select the Experiment Type**
-   - For **Freedrive mode**, select **option 2**.
-   - For **Admittance control**, select **option 6**.
-     - Before executing, set the desired virtual mass (1, 5, or 10) inside the script.
-
-4. *(Optional)* **Set Up the Disturbance Robot**
-   - Connect **Computer 2** to the **Disturbance UR3**.
-   - Assign a static IP (e.g., 192.168.1.25) and update the Disturbance_Robot.py script accordingly.
-   - Run the script and select **option 25** to move it to its initial pose.
-
-5. **Physically Connect the Robots (If Using Disturbance)**
-   - Place both UR3 robots close enough to connect them via the **3D printed coupling piece**.
-
-6. **Start the Disturbance Force**
-   - On **Computer 2**, select **option 9** to begin generating the sinusoidal opposing force.
-
-7. **Run the Test**
-   - On **Computer 1** (Control Robot), choose either:
-     - Option 2 → **Freedrive with disturbance**
-     - Option 6 → **Admittance control with disturbance**
-   - Data will be collected automatically and saved as .csv.
+1. **Upload `force_sensor_FSR.ino`** to Arduino and connect it to **Computer 1**.
+2. **Connect Computer 1** to the **Control UR3** and **Run `Control_Robot.py`**, set IP, and test with option `25` for start pose.
+3. **Run Freedrive** (option `2`) or **Admittance** (option `6`, adjust mass in script).
+4. *(Optional)* Connect **Computer 2** to the **Disturbance UR3**, set IP.
+5. **Run `Disturbance_Robot.py`**, select option `25` to go to start pose.
+6. Mechanically connect both robots.
+7. On Computer 2, start force injection with **option `9`**.
+8. On Control Robot, run option `2` or `6` depending on test type.
+9. Data is saved in `.csv` format for analysis.
 
 ---
 
