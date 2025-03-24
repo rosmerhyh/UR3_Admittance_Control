@@ -172,3 +172,55 @@ In this video you can see the admittance control test in the experiment configur
     </td>
   </tr>
 </table>
+
+## 🧪 How to Run the Experiment
+
+This section explains how to set up and execute both experimental conditions: with and without external sinusoidal disturbance.
+
+---
+
+### 🧰 Equipment Required
+
+- 2 Computers (one for each UR3 robot)
+- 2 UR3 collaborative robots
+- FSR sensor + Arduino (with USB cable)
+- 3D printed part to mechanically connect the two robots (optional for disturbance)
+- Local network (manual IP assignment)
+
+---
+
+### 🧪 Step-by-Step Instructions
+
+1. **Prepare the Force Sensor**
+   - Upload the `force_sensor_FSR.ino` sketch to the Arduino.
+   - Ensure the Arduino is properly connected to the FSR sensor.
+   - Connect the Arduino via USB to **Computer 1** (which will control the main robot).
+
+2. **Configure the Main Robot (Control Robot)**
+   - Connect **Computer 1** to the **Control UR3**.
+   - Set a static IP (e.g., `192.168.1.29`) and update the `Control_Robot.py` script accordingly.
+   - Run the script and select **option `25`** to move the robot to its initial pose.
+
+3. **Select the Experiment Type**
+   - For **Freedrive mode**, select **option `2`**.
+   - For **Admittance control**, select **option `6`**.
+     - Before executing, set the desired virtual mass (`1`, `5`, or `10`) inside the script.
+
+4. *(Optional)* **Set Up the Disturbance Robot**
+   - Connect **Computer 2** to the **Disturbance UR3**.
+   - Assign a static IP (e.g., `192.168.1.25`) and update the `Disturbance_Robot.py` script accordingly.
+   - Run the script and select **option `25`** to move it to its initial pose.
+
+5. **Physically Connect the Robots (If Using Disturbance)**
+   - Place both UR3 robots close enough to connect them via the **3D printed coupling piece**.
+
+6. **Start the Disturbance Force**
+   - On **Computer 2**, select **option `9`** to begin generating the sinusoidal opposing force.
+
+7. **Run the Test**
+   - On **Computer 1** (Control Robot), choose either:
+     - Option `2` → **Freedrive with/without disturbance**
+     - Option `6` → **Admittance control with/without disturbance**
+   - Data will be collected automatically and saved as `.csv`.
+
+---
