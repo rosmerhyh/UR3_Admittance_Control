@@ -169,21 +169,21 @@ A voltage divider with an Arduino measures force from an FSR sensor, sending val
   <tr>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment1_1.jpg" alt="Pic1" width="300"/><br>
-      <sub><b>Experiment 1:</b> Volunteer performing experiment</sub>
+      <sub><b>Photo 1:</b> Volunteer performing experiment 1</sub>
     </td>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment2_2.jpg" alt="Pic2" width="300"/><br>
-      <sub><b>Experiment 2:</b> With sinusoidal load</sub>
+      <sub><b>Photo 2:</b> Volunteer performing experiment 2</sub>
     </td>
   </tr>
   <tr>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment2_3.jpeg" alt="Pic3" width="300"/><br>
-      <sub><b>Experiment 2:</b> Interaction test</sub>
+      <sub><b>Photo 3:</b> Volunteer performing experiment 2</sub>
     </td>
     <td align="center">
       <img src="graphic_resources/volunteer_performing_experiment2_4.jpg" alt="Pic4" width="300"/><br>
-      <sub><b>Experiment 2:</b> With disturbance robot</sub>
+      <sub><b>Photo 4:</b> Volunteer performing experiment 2</sub>
     </td>
   </tr>
 </table>
