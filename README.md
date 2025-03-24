@@ -119,7 +119,7 @@ A voltage divider with an Arduino measures force from an FSR sensor, sending val
 - Two UR3 robots, mechanically connected
 - Control Robot: same as in Experiment 1
 - Disturbance Robot: applies sinusoidal load via Force Mode
-- Goal: evaluate robustness of admittance control under dynamic forces
+- Goal: evaluate robustness of admittance control and freedrive under dynamic forces
 
 <img src="graphic_resources/Experiment_Setup_2.png" alt="Experiment 2 setup" width="100%"/>
 *Figure 3: Experimental setup for admittance control with disturbance.*
